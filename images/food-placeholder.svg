@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="430" viewBox="0 0 600 430">
+  <rect width="600" height="430" fill="#ffe1c9"/>
+  <circle cx="490" cy="65" r="75" fill="#ffb2a6" opacity=".65"/>
+  <circle cx="300" cy="200" r="129" fill="#fff7ef" stroke="#ffa985" stroke-width="12"/>
+  <circle cx="300" cy="200" r="90" fill="#ffcaaa"/>
+  <circle cx="255" cy="164" r="26" fill="#f37989"/>
+  <circle cx="333" cy="206" r="29" fill="#f37989"/>
+  <circle cx="274" cy="236" r="25" fill="#f37989"/>
+  <path d="M250 135l13-19m68 59l13-19m-73 52l13-19" stroke="#5d9871" stroke-width="8" stroke-linecap="round"/>
+  <rect x="173" y="348" width="254" height="45" rx="23" fill="#fff9f2"/>
+  <text x="300" y="378" font-family="Arial,sans-serif" font-weight="bold" font-size="21" text-anchor="middle" fill="#c9654c">ADD FOOD PHOTO</text>
+</svg>

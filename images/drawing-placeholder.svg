@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="430" viewBox="0 0 600 430">
+  <rect width="600" height="430" fill="#ffe2eb"/>
+  <circle cx="510" cy="75" r="90" fill="#ffc2d0"/>
+  <rect x="184" y="59" width="234" height="260" rx="11" transform="rotate(-8 301 189)" fill="#fffdf9" stroke="#eaaaba" stroke-width="6"/>
+  <path d="M225 220l54-77 49 58 44-45" transform="rotate(-8 301 189)" fill="none" stroke="#ec839d" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="250" cy="116" r="18" fill="#ffcb7d"/>
+  <path d="M382 300l84-150 21 12-84 150-32 24Z" fill="#f69b60" stroke="#ac557c" stroke-width="5"/>
+  <rect x="154" y="347" width="292" height="45" rx="23" fill="#fff9f6"/>
+  <text x="300" y="377" font-family="Arial,sans-serif" font-weight="bold" font-size="21" text-anchor="middle" fill="#b65a7b">ADD DRAWING PHOTO</text>
+</svg>

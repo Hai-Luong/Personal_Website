@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Nunito:wght@400;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #fff3ee;
+  color: #382832;
+  font-family: "Nunito", sans-serif;
+  line-height: 1.6;
+}
+
+a {
+  color: #e65c93;
+  text-decoration: none;
+}
+
+a:hover,
+.site-nav .active,
+h1 span,
+h2 span {
+  color: #f16b38;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Fredoka", sans-serif;
+  font-weight: 600;
+  color: #f16b38;
+}
+
+h1 {
+  font-size: 48px;
+  color: #f16b38;
+}
+h2 {
+  font-size: 30px;
+  color: #e65c93;
+}
+img {
+  max-width: 100%;
+}
+
+.site-wrapper {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 32px;
+}
+
+.site-header,
+.site-nav,
+.sidebar-links,
+.button-row,
+.site-footer,
+.detail-visual {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  color: #f16b38;
+}
+
+.site-header {
+  padding: 30px 0 65px;
+}
+.site-nav a {
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.portfolio-layout,
+.detail-layout {
+  display: grid;
+  grid-template-columns: 38% 1fr;
+  gap: 45px;
+}
+
+.profile-photo {
+  width: 100%;
+  height: 470px;
+  object-fit: contain;
+}
+
+.sidebar-card,
+.request-card {
+  margin-top: 45px;
+}
+.intro-card,
+.section-card,
+.page-intro {
+  margin-bottom: 65px;
+}
+
+.small-heading,
+.section-kicker,
+.eyebrow,
+.detail-number,
+.detail-facts strong {
+  color: #f16b38;
+  font-weight: bold;
+}
+
+.intro-tagline {
+  font-size: 22px;
+}
+
+.intro-description,
+.section-card p,
+.detail-card p,
+.project-tile p {
+  color: #77656c;
+}
+
+.button {
+  background: none;
+  border: 0;
+  padding: 0;
+  text-decoration: underline;
+}
+
+.section-heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.update-item {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  gap: 20px;
+  padding: 12px 0;
+}
+
+.update-item time {
+  color: #f16b38;
+}
+
+.project-grid,
+.gallery-grid,
+.detail-facts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 35px;
+}
+
+.gallery-item {
+  margin: 0;
+}
+
+.gallery-item img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.detail-visual {
+  flex-direction: column;
+}
+.request-dropdown summary {
+  cursor: pointer;
+}
+
+.request-summary-title {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.request-content {
+  padding-top: 24px;
+}
+
+.google-form-embed iframe {
+  width: 100%;
+  height: 730px;
+  border: 0;
+}
+
+.site-footer {
+  justify-content: space-between;
+  padding: 30px 0;
+}
+
+.site-logo,
+.header-label,
+.logo-sparkle,
+.eyebrow-dot,
+.heading-icon,
+.fact-icon,
+.project-thumbnail,
+.detail-symbol,
+.form-placeholder-icon,
+.request-arrow,
+.gallery-item figcaption span,
+.photo-caption span {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .portfolio-layout,
+  .detail-layout,
+  .project-grid,
+  .gallery-grid,
+  .detail-facts {
+    grid-template-columns: 1fr;
+  }
+
+  .site-wrapper {
+    padding: 0 20px;
+  }
+  .profile-photo {
+    height: 360px;
+  }
+  .site-header {
+    padding-bottom: 40px;
+  }
+}
